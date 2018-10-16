@@ -28,7 +28,7 @@ p{
 }
 .subnav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .subnav a{
    font-size: 1.5rem;
