@@ -1,0 +1,102 @@
+*,
+*::after,
+@import 'https://fonts.googleapis.com/css?family=Raleway|Montserrat';
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:Raleway, "Helvetica Neue", Helvetica, Arial sans-serif;
+}
+h1, h2, h3, h4{
+    font-size: 3.375rem;
+    font-family: 'Monserrat', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    
+}
+p{
+    
+}
+.container{
+    max-width: 1500px; 
+    background-color: hsla(20, 100%, 50%, 1);
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.subnav{
+    display: flex;
+    justify-content: flex-end;
+}
+.subnav a{
+   
+}
+.mainnav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.25rem;
+    background-color: hsla(120, 100%, 50%, 1)
+}
+.mainnav a{
+    
+}
+.masthead{
+    
+}
+.times-logo{
+    
+}
+.masthead h1{
+    
+}
+.content{
+    background-color: hsla(277, 100%, 50%, 1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.content .story{
+    
+}
+.story.lead-story{
+
+   
+   
+}
+h1.story-title{
+    
+}
+.story img{
+   
+}
+.story p{
+    
+}
+.story blockquote{
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+    
+}
+p.byline span.author{
+    
+}
+p.byline span.pub{
+    
+}
+.foot{
+    
+}
+.foot p{
+    
+}
